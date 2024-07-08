@@ -18,10 +18,16 @@
 
 
 
-    const printAvengers = ({ironman,vision}:Avengers)=>{
-        console.log(ironman,vision);
+    const printAvengers = ({ironman,...rest}:Avengers)=>{
+        console.log(ironman,rest);
     }
 
     printAvengers(avengers);
+
+    const arrAvengers:[string,number,true] = ['superman',42,true];
+
+    const [name,age,DcComic] = arrAvengers;
+
+    console.log(name,age,DcComic);
 
 })()
