@@ -45,6 +45,9 @@
         }
     }
 
-    //
+    console.log(flash2);
+    console.log(superMan);
+    console.log(spiderman);
+
 
 })()
