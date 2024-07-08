@@ -29,7 +29,7 @@
     //     }
     // }
 
-    let flash2: {name:string,age?:number,powers:string[],getNombre:Function} = {
+    let flash2: {name:string,age?:number,powers:string[],getNombre:()=>string} = {
         name: 'Barry Allen',
         age: 24,
         powers: ['super velocidad','viajar en el tiempo'],
