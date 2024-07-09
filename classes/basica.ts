@@ -33,7 +33,7 @@
     }
 
     const antman: Avenger = new Avenger('Antmam','Team A');
-    console.log('antman:', antman);
+    // console.log('antman:', antman);
     const superman: Avenger2 = new Avenger2('superman','Team B');
-    console.log('superman:', superman);
+    // console.log('superman:', superman);
 })()

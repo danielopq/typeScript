@@ -18,8 +18,7 @@
             super(name,realName);
             console.log('Constructor Xmen llamado!!');
         }
-
-
+        //getter and setters can have the same name (not mandatory)
         get fullName(){
             return `Full name (getter): ${this.name} - ${this.realName}`;
         }
