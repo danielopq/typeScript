@@ -28,4 +28,24 @@
     console.log(superMan);
     console.log(spiderman);
 })();
+(() => {
+    const client = {
+        name: 'Manuel',
+        age: 25,
+        address: {
+            id: 125,
+            zip: 'KY SUD12',
+            city: 'Ottawa'
+        }
+    };
+    const client2 = {
+        name: 'Melissa',
+        age: 30,
+        address: {
+            id: 56,
+            zip: 'N20-1000',
+            city: 'Toronto'
+        }
+    };
+})();
 //# sourceMappingURL=main.js.map
