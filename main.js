@@ -28,6 +28,24 @@ var __rest = (this && this.__rest) || function (s, e) {
     console.log(name, age, DcComic);
 })();
 (() => {
+    const ironman = {
+        name: 'Ironman',
+        weapon: 'armor'
+    };
+    const captainAmerica = {
+        name: 'Captain America',
+        weapon: 'Shield'
+    };
+    const thor = {
+        name: 'Thor',
+        weapon: 'Mjolnir'
+    };
+    const avengers = [ironman, thor, captainAmerica];
+    for (const heroe of avengers) {
+        console.log(heroe.name);
+    }
+})();
+(() => {
     let variable = 'hola';
 })();
 //# sourceMappingURL=main.js.map
